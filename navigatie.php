@@ -1,20 +1,18 @@
-<nav>
-        <span>Vandaag is het  <?php echo date("d") . "  " . date("m"); ?> </span>
-        <ul>
-            <li><a href="index.html">Thuis</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="contact.html">link</a></li>
-            <li><a href="contact.html">link</a></li>
-            <li><a href="contact.html">link</a></li>
-            <li><a href="contact.html">link</a></li>
-            <li><a href="contact.html">link</a></li>
-        </ul>
-    </nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 
-
-    <?php
-    $maanden  = ["Januari", "Februari",
-     "Maart", "April", "Mei","Juni","Juli","Augustus","September","Oktober","November","December"];
-
-     echo $maanden[0];
-    ?>
+<button onclick="test()">Klik mij</button>
+    
+<script>
+    function test(){
+        alert("hiu");
+    }
+</script>
+</body>
+</html>
